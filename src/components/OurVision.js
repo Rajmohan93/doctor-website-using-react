@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./../css/vision.css";
 
 export default function OurVision() {

@@ -1,5 +1,8 @@
 .ourteam {
     padding: 30px 0px;
+    background-image: url(../assets/team_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .ourteam-title-1,

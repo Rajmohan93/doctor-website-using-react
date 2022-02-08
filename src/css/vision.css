@@ -1,7 +1,8 @@
 .bbg-image {
-  background-image: url("./../assets/bg.jpg");
-  height: 768px;
+    background-image: url("./../assets/bg.jpg");
+    height: 768px;
 }
+
 .hero-h1 {
-  color: #124e48;
+    color: #124e48;
 }
