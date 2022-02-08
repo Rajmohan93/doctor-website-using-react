@@ -1,6 +1,8 @@
 import React from "react";
+import { Image } from "react-bootstrap";
 
 import "./../css/vision.css";
+import circle from "./../assets/teenyicons_tick-circle-solid.svg";
 
 export default function OurVision() {
   return (
@@ -16,7 +18,33 @@ export default function OurVision() {
             laudantium dolorem quo. Quibusdam officiis voluptate magni delectus
             nihil, repudiandae commodi quas.
           </p>
-          <i class="bi bi-check-circle-fill"></i>
+          <div className="my-flex">
+            <div className="inner-row-flex">
+              <Image
+                src={circle}
+                alt="circle"
+                className="socialmedia-svg"
+              ></Image>
+              <span>Best and timely diagnosis</span>
+            </div>
+            <div className="inner-row-flex">
+              <Image
+                src={circle}
+                alt="circle"
+                className="socialmedia-svg"
+              ></Image>
+              <span>Great and timely diagnosis</span>
+            </div>
+
+            <div className="inner-row-flex">
+              <Image
+                src={circle}
+                alt="circle"
+                className="socialmedia-svg"
+              ></Image>
+              <span>Experienced Professionals</span>
+            </div>
+          </div>
         </div>
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
