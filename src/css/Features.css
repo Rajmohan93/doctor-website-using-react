@@ -1,0 +1,27 @@
+.features {
+    padding: 30px 0px;
+    background-color: #DBEEEB;
+}
+
+.features-title-1 {
+    text-transform: capitalize;
+    color: #124E48;
+}
+
+.features-title-2 {
+    text-transform: uppercase;
+    color: #124E48;
+}
+
+.features-button {
+    text-transform: uppercase;
+    margin: 20px 0px;
+    border-radius: 30px;
+    border: 1px solid #60D2C8;
+    background-color: #60D2C8;
+}
+
+.features-button:hover {
+    background-color: #60D2C8;
+    border: 1px solid #60D2C8;
+}
