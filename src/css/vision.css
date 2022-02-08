@@ -1,8 +1,11 @@
 .bbg-image {
-    background-image: url("./../assets/bg.jpg");
-    height: 768px;
+  background-image: url("./../assets/bg.jpg");
+  height: 670px;
 }
-
+.hero-h3 {
+  color: #60d2c8;
+  font-weight: 500;
+}
 .hero-h1 {
   color: #124e48;
   font-weight: 700;
@@ -19,5 +22,22 @@
   width: 220px;
   justify-content: space-between;
 }
-    color: #124e48;
+.book-session-btn {
+  background-color: #60d2c8;
+  border: 0px solid #60d2c8;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  font-size: larger;
+}
+.book-session-btn:hover {
+  background-color: #124e48;
+  border-color: #124e48;
+}
+
+.book-session-btn:active {
+  background-color: #124e48;
+}
+.session-div {
+  margin-top: 30px;
 }

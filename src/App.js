@@ -13,13 +13,13 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div>
-      <NavigationBar/>
-      <OurVision/>
-      <Features/>
-      <OurTeam/>
-      <LatestNews/>
-      <Contact/>
-      <Footer/>
+      <NavigationBar />
+      <OurVision />
+      <Features />
+      <OurTeam />
+      {/* <LatestNews/> */}
+      <Contact />
+      <Footer />
     </div>
   );
 }

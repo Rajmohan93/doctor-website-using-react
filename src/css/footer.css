@@ -1,0 +1,18 @@
+.footerDisplay {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #dbeeeb;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 47px;
+    height: 60px;
+}
+.gray-color {
+  color: #b8b8b8;
+}
+.admin-link {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+}
