@@ -1,7 +1,8 @@
 .bbg-image {
-  background-image: url("./../assets/bg.jpg");
-  height: 768px;
+    background-image: url("./../assets/bg.jpg");
+    height: 768px;
 }
+
 .hero-h1 {
   color: #124e48;
   font-weight: 700;
@@ -17,4 +18,6 @@
   flex-direction: row;
   width: 220px;
   justify-content: space-between;
+}
+    color: #124e48;
 }
