@@ -1,27 +1,36 @@
 .features {
-    padding: 30px 0px;
-    background-color: #DBEEEB;
+  padding: 30px 0px;
+  background-color: #dbeeeb;
 }
 
 .features-title-1 {
-    text-transform: capitalize;
-    color: #124E48;
+  text-transform: capitalize;
+  color: #124e48;
 }
 
 .features-title-2 {
-    text-transform: uppercase;
-    color: #124E48;
+  text-transform: uppercase;
+  color: #124e48;
+  text-align: center;
+  margin: 53px;
 }
 
 .features-button {
-    text-transform: uppercase;
-    margin: 20px 0px;
-    border-radius: 30px;
-    border: 1px solid #60D2C8;
-    background-color: #60D2C8;
+  text-transform: uppercase;
+  margin: 20px 0px;
+  border-radius: 30px;
+  border: 1px solid #60d2c8;
+  background-color: #60d2c8;
 }
 
 .features-button:hover {
-    background-color: #60D2C8;
-    border: 1px solid #60D2C8;
+  background-color: #60d2c8;
+  border: 1px solid #60d2c8;
+}
+
+.card {
+  background-color: transparent !important;
+  border: 0px !important;
+  text-align: center !important;
+  color: #124e48;
 }

@@ -1,0 +1,19 @@
+.contactDisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #dbeeeb;
+  align-items: center;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.contact-h1 {
+  color: #124e48;
+  font-weight: 500;
+}
+
+.contact-h3 {
+  color: #60d2c8;
+}
