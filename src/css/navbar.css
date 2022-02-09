@@ -45,11 +45,20 @@ svg {
     justify-content: center;
 }
 
+.Naviagation-Bar {
+    background-color: #60d2c8;
+}
+
+.naviagtion-links {
+    justify-content: space-between;
+}
+
+.naviagtion-links>Nav>Nav.Link {
+    color: #124e48 !important;
+}
+
 @media screen and (max-width: 768px) {
-    .socialmedia-div {
-        display: none;
-    }
-    .socialmedia-svg {
-        display: none;
+    .socialmedia-div a {
+        display: flex;
     }
 }

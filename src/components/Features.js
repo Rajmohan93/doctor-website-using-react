@@ -56,9 +56,9 @@ export default function Features() {
           </Col>
         </Row>
         <Row>
-          <Col xs={{span: 2, offset: 5}} sm={{span: 2, offset: 5}} md={{span: 2, offset: 5}} lg={{span: 2, offset: 5}} xl={{span: 2, offset: 5}} xxl={{span: 2, offset: 5}}>
+          <Col xs={{span: 12}} sm={{span: 12}} md={{span: 4, offset: 2}} lg={{span: 2, offset: 5}} xl={{span: 2, offset: 5}} xxl={{span: 2, offset: 5}}>
             <Button variant="primary" type="button" className="features-button">
-              read more
+              read more <i class="bi bi-arrow-right"></i>
             </Button>
           </Col>
         </Row>

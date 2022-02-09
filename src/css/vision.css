@@ -1,6 +1,7 @@
 .bbg-image {
     background-image: url("./../assets/bg.jpg");
     height: 670px;
+    padding: 30px 0px;
 }
 
 .hero-h3 {
@@ -11,6 +12,7 @@
 .hero-h1 {
     color: #124e48;
     font-weight: 700;
+    font-size: 48px;
 }
 
 .my-flex {
@@ -47,4 +49,10 @@
 
 .session-div {
     margin-top: 30px;
+}
+
+.vision-ul li {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 5px;
 }
