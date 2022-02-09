@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Navbar, Nav, Image } from "react-bootstrap";
 
 import "./../css/navbar.css";
+
 import logo from "./../assets/Logo.svg";
 import twitter from "./../assets/twitter.svg";
 import youtube from "./../assets/youtube.svg";
@@ -19,39 +20,18 @@ export default function NavigationBar() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
-              navbarScroll
-            >
-              <Nav.Link href="#action1">Our Vision</Nav.Link>
-              <Nav.Link href="#action2">Features</Nav.Link>
-              <Nav.Link href="#action3">Our Team</Nav.Link>
-              <Nav.Link href="#action4">Latest News</Nav.Link>
-              <Nav.Link href="#action5">Contact</Nav.Link>
+            <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: "100px" }} navbarScroll >
+              <Nav.Link href="#">Our Vision</Nav.Link>
+              <Nav.Link href="#">Features</Nav.Link>
+              <Nav.Link href="#">Our Team</Nav.Link>
+              <Nav.Link href="#">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
           <div className="d-flex socialmedia-div">
-            <Image
-              src={twitter}
-              alt="twitter"
-              className="socialmedia-svg"
-            ></Image>
-            <Image
-              src={instagram}
-              alt="twitter"
-              className="socialmedia-svg "
-            ></Image>
-            <Image
-              src={facebook}
-              alt="twitter"
-              className="socialmedia-svg"
-            ></Image>
-            <Image
-              src={youtube}
-              alt="twitter"
-              className="socialmedia-svg"
-            ></Image>
+            <Image src={twitter} alt="twitter" className="socialmedia-svg"></Image>
+            <Image src={instagram} alt="twitter" className="socialmedia-svg"></Image>
+            <Image src={facebook} alt="twitter" className="socialmedia-svg"></Image>
+            <Image src={youtube} alt="twitter" className="socialmedia-svg"></Image>
           </div>
         </Container>
       </Navbar>

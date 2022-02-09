@@ -6,7 +6,6 @@ import NavigationBar from "./components/NavigationBar";
 import OurVision from "./components/OurVision";
 import Features from "./components/Features";
 import OurTeam from "./components/OurTeam";
-import LatestNews from "./components/LatestNews";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -17,7 +16,6 @@ export default function App() {
       <OurVision />
       <Features />
       <OurTeam />
-      {/* <LatestNews/> */}
       <Contact />
       <Footer />
     </div>

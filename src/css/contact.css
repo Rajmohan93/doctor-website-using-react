@@ -1,19 +1,31 @@
 .contactDisplay {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #dbeeeb;
-  align-items: center;
+    background-color: #dbeeeb;
 }
+
 img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
+
 .contact-h1 {
-  color: #124e48;
-  font-weight: 500;
+    color: #124e48;
+    font-weight: 500;
 }
 
 .contact-h3 {
-  color: #60d2c8;
+    color: #60d2c8;
+}
+
+.contact-button {
+    background-color: #60d2c8;
+    border: 1px solid #60d2c8;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.contact-button:hover {
+    background-color: #124e48;
+    border: 1px solid #124e48;
+    border-radius: 30px;
+    text-transform: uppercase;
 }
